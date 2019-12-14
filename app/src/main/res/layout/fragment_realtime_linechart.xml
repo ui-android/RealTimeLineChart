@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns = "0">
+            <TableRow>
+                <com.third.mikephil.charting.charts.LineChart
+                    android:id="@+id/chart1"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+            </TableRow>
+            <TableRow>
+                <com.third.mikephil.charting.charts.LineChart
+                    android:id="@+id/chart2"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+            </TableRow>
+            <TableRow>
+                <com.third.mikephil.charting.charts.LineChart
+                    android:id="@+id/chart3"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+            </TableRow>
+            <TableRow>
+                <com.third.mikephil.charting.charts.LineChart
+                    android:id="@+id/chart4"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+            </TableRow>
+            <TableRow>
+                <com.third.mikephil.charting.charts.LineChart
+                    android:id="@+id/chart5"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+
+</FrameLayout>
